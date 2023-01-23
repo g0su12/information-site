@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 70px;
+    background-color: green;
+}
+
+.navbar-menu > .list {
+    font-size: 1.3rem;
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin: 0 10px;
+}
+
+.item:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+main {
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+    color: #fff;
+}
+
+.main-content {
+    padding: 10% 20%;
+    font-size: 1.2rem;
+}
+
+.description {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
